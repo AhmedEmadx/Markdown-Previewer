@@ -1,0 +1,27 @@
+textarea {
+  width: 100%;
+  height: 99vh;
+  background: rgb(32, 32, 32);
+  color: rgb(233, 230, 235);
+}
+#preview{
+  width: 100%;
+  height: 99vh;
+  overflow-wrap: break-word;
+  border: 1px solid rgb(146, 141, 141);
+}
+.box {
+  margin: 1px 5px 1px 5px;
+  padding: 1px;
+}
+.col-lg-6, .col-md-6{
+  padding: 0px 2px;
+}
+@media (min-width:320px) and (max-width: 995px){
+  textarea {
+    height: 50vh;
+  }
+  #preview {
+    height: 80vh;
+  }
+}

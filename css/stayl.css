@@ -1,0 +1,32 @@
+textarea {
+  width: 100%;
+  height: 99vh;
+  background: #202020;
+  color: #e9e6eb;
+}
+
+#preview {
+  width: 100%;
+  height: 99vh;
+  overflow-wrap: break-word;
+  border: 1px solid #928d8d;
+}
+
+.box {
+  margin: 1px 5px 1px 5px;
+  padding: 1px;
+}
+
+.col-lg-6, .col-md-6 {
+  padding: 0px 2px;
+}
+
+@media (min-width: 320px) and (max-width: 995px) {
+  textarea {
+    height: 50vh;
+  }
+  #preview {
+    height: 80vh;
+  }
+}
+/*# sourceMappingURL=stayl.css.map */
